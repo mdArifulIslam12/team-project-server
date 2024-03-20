@@ -3,6 +3,7 @@ import { Server } from 'http';
 import mongoose from 'mongoose';
 import app from './app';
 import config from './config/index';
+
 const port = 5000;
 
 process.on('uncaughtException', error => {
